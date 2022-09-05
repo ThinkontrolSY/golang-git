@@ -1,4 +1,4 @@
-FROM golang:1.18.1-alpine3.15 as builder
+FROM golang:1.19.0-alpine3.15 as builder
 RUN apk update
 RUN apk add git
 ENV GO111MODULE "on"
